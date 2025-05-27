@@ -1,0 +1,66 @@
+url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
+
+/* Variáveis */
+:root {
+    --primary-color: #FF5733; /* Cor principal relacionada ao consumismo */
+    --secondary-color: #FFC300; /* Cor secundária */
+    --text-color: #3C3C3C; /* Cor do texto */
+    --background-color: #F7F7F7; /* Cor de fundo mais neutra */
+    --button-hover: #C70039; /* Cor do botão ao passar o mouse */
+    --font-body: "Chocolate Classical Sans", serif;
+    --font-titulo: "Rakkas", serif;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+/* Corpo da página */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 90%;
+}
+
+/* Estilos adicionais para o tema de consumismo */
+h1, h2 {
+    color: var(--primary-color);
+}
+
+.cta-button, .cta-footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover, .cta-footer:hover {
+    background-color: var(--button-hover);
+}
+
+/* Estilo para listas e artigos */
+ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.conteudo {
+    margin: 20px 0;
+}
